@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
+    "@sonolus/core": "^7.9.2",
     "asynckit": "^0.4.0",
     "axios": "^1.7.2",
     "combined-stream": "^1.0.8",
@@ -17,9 +18,9 @@
     "mime-db": "^1.52.0",
     "mime-types": "^2.1.35",
     "proxy-from-env": "^1.1.0",
+    "sonolus-d4dj-engine": "file:../sonolus-d4dj-engine-1.1.4.tgz",
     "universalify": "^2.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
